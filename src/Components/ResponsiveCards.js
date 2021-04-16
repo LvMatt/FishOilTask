@@ -4,7 +4,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import eye from '../assets/icons/eye.png';
 
-class ResponsiveBoxes extends Component{
+class ResponsiveCards extends Component{
     cards = [
         {
             "image": '/assets/icons/eye.png',
@@ -62,4 +62,4 @@ class ResponsiveBoxes extends Component{
     }
 }
 
-export default ResponsiveBoxes;
+export default ResponsiveCards;

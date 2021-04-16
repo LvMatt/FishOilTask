@@ -28,6 +28,9 @@
         color: #ffffff;
        
     }
+    .text_header_section{
+        position: absolute;
+    }
     .main_header{
         background-image: url(../assets/background.png);
         width: 100%;
@@ -71,7 +74,6 @@
         z-index: -9999;
     }
 
- 
     .header_action
     {
         width: 100%;
@@ -99,7 +101,6 @@
        height: auto;
 
     }
-
     .card{
         margin-top: 20px;
         padding: 10px;
@@ -116,13 +117,6 @@
     }
 }
 
-
-@media only screen and (min-width: 768px) {
-    .text_header_section{
-        position: absolute;
-    }
-}
-
 @media (max-width:1024px) and (min-width:768px) {
     .image_wrapper .coffee_pic{
         top: 0;
@@ -131,11 +125,6 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .text_header_section{
-        position:initial;
-    }
-}
 .text_header_section{
     text-align: left;
     bottom: 100px;
@@ -209,16 +198,11 @@
         font-size: 32px;
         line-height: 51px;
     }
-
 }
 
 .card_wrapper{
-    margin-top: 40px;
     margin-bottom:40px;
 }
-
-
-
 
 .card {
     padding: 20px 5px ;

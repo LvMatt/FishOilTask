@@ -39,7 +39,7 @@ class ResponsiveBoxes extends Component{
                     {
                         this.cards.map((card) => (
                        
-                    <Col lg={2} md={3} sm={6} xs={12} className={style.card}>
+                    <Col lg={2} md={3} sm={6} xs={10} className={style.card}>
                         <div className={style.card_image_wrapper}>
                             <img className={style.card_image} src={card.image}></img>
                         </div>

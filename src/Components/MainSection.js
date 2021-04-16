@@ -45,7 +45,7 @@ class MainSection extends Component{
                                 Do the health test
                             </button>
                             <button className={style.button_add}>
-                                <p> Add to cart</p>
+                                 Add to cart
                             </button>
                         </div>
                     </div>
